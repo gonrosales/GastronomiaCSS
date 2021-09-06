@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    font-family: 'Lobster', cursive;
+}
+/*
+di contenedor principal
+*/
+.contenedor {
+    background-color:olive;
+    width: 60%;
+    margin: 0 auto;
+    color:aliceblue;
+    overflow: auto;
+}
+.menu-principal {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width:100%;
+   background: coral;
+   font-weight: bold;
+  
+}
+.menu-principal li {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    width: 60%;
+    font-size:20px;
+
+}
+.menu-principal ul{
+    width: 100%;
+    overflow: auto;
+}
+
+.menu-principal a {
+    text-decoration: none;
+
+}
+.img-plato{
+    width:400px;
+    border-radius:20%;
+    float: right;
+    padding: 3%;
+    padding-right:1%;
+
+}
+.section-contacto{
+    width:90%;
+    margin:0 auto;
+    overflow: auto;
+}
+.boton{
+    font-family: lobster;
+    color: grey;
+    background-color:cornflowerblue;
+    text-decoration: none;
+    padding: 4%;
+}
+.boton a:hover{
+    color:tomato;
+}
+.col{
+    align-items: center;
+}
+.btn-contacto{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding:0 10px;
+}
+
+.section-contacto{
+    display: flex;
+    align-items: center;
+
+}
+.section-titulo{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10%;
+    margin-right: 30%
+
+}
